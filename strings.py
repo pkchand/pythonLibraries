@@ -14,10 +14,17 @@ def reverse_string(str):
 
 def reverse_words_in_sentense(str):
     """takes a string and reverses its words. i.e. hello world is going to be world hello"""
-    
+    words=str.split(" ")
+    new_str=""
+    for i in range(len(words)-1,-1,-1):
+        new_str=new_str+" "+words[i]
+    print(new_str.strip())
 
 
 
-reverse_string("determined")
+
+reverse_words_in_sentense("sly fox jumps over the fence")
+#reverse_string("determined")
 #count_vowels("jump over the building")
+
 
