@@ -20,6 +20,16 @@ def reverse_words_in_sentense(str):
         new_str=new_str+" "+words[i]
     print(new_str.strip())
 
+def occurance_of_Char(str, char):
+    """take a string and a charachter then find how many time that character repeated in that string"""
+
+def reverse_string_without_space_location(str):
+    """takes a string and reverse it without tthe position of space"""
+
+def string_subset(str1, str2):
+    """takes a string and checks if that string contains a separately given string"""
+    
+
 
 
 
